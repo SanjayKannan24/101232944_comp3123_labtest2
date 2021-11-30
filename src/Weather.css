@@ -1,0 +1,39 @@
+.container{
+    background-color: rgb(8, 128, 175);
+    color: white;
+    height: 100vh;
+    margin-top: -3.5vh;
+}
+
+#name{
+    text-align: center;
+    font-size: 5vw;
+}
+
+#sunStatus{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#coord{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    
+}
+
+#coord h4{
+    font-size: 3vw;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    text-align: center;
+}
+
+#weather_icon{
+    text-align: center;
+}
